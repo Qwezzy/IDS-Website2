@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IDT | services</title>
+  <link rel="icon" href="assets/img/logo-icon.png">
+ 
+   <!-- CSS only -->
+   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+   <!-- Font Awesome 6 -->
+   <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+   <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+   <!-- swiper -->
+   <link rel="stylesheet" href="assets/css/swiper.css">
+   <!-- style -->
+   <link rel="stylesheet" href="assets/css/style.css">
+   <!-- responsive -->
+   <link rel="stylesheet" href="assets/css/responsive.css">
+   <!-- color -->
+   <link rel="stylesheet" href="assets/css/color.css">
+ </head>
+<body>
+  <!-- preloader start -->
+    <div class="preloader"> 
+      <div>
+      <div class="container">
+      <div class="squarebox one"></div>
+      <div class="squarebox two"></div>
+      <div class="squarebox three"></div>
+      <div class="squarebox two"></div>
+      <div class="squarebox three"></div>
+      <div class="squarebox four"></div>
+      <div class="squarebox three"></div>
+      <div class="squarebox four"></div>
+      <div class="squarebox five"></div>
+      </div>
+      </div>
+    </div>
+  <!-- preloader end -->
+  <header>
+    <div class="container">
+        <div class="nav">
+          <div class="d-flex align-items-center">
+            <div class="logo">
+              <a href="index.html">
+                <img alt="logo" height="100px" src="assets/img/logo.png" >
+              </a>
+            </div>
+            <ul class="menu">
+              <li>
+                <a href="index.html">HOME</a>
+                <!-- <ul class="sub-menu">
+                  <li><a href="index.html">homepage 1</a></li>
+                  <li><a href="index-2.html">homepage 2</a></li>
+                  <li><a href="index-3.html">homepage 3</a></li>
+                </ul> -->
+              </li>
+              <li>
+                <a href="about.html">ABOUT</a>
+                <!-- <ul class="sub-menu">
+                  <li><a href="about.html">about</a></li>
+                  <li><a href="team.html">team</a></li>
+                  <li><a href="services.html">services</a></li>
+                  <li><a href="pricing.html">pricing</a></li>
+                  <li><a href="404error.html">404 error</a></li>
+                </ul> -->
+              </li>
+              <li>
+                <a href="services.html">SERVICES</a>
+                <!-- <ul class="sub-menu">
+                  <li><a href="portfolio-grid.html">portfolio grid</a></li>
+                  <li><a href="portfolio-masonry.html">portfolio masonry</a></li>
+                  <li><a href="portfolio-metro.html">portfolio metro</a></li>
+                  <li><a href="portfolio-single-v1.html">portfolio single v1</a></li>
+                  <li><a href="portfolio-single-v2.html">portfolio single v2</a></li>
+                </ul> -->
+              </li>
+              <li>
+                <a href="team.html">TEAM</a>
+                <!-- <ul class="sub-menu">
+                  <li><a href="blog-grid.html">blog grid</a></li>
+                  <li><a href="blog-single-post.html">blog single post 1</a></li>
+                  <li><a href="blog-single-post-2.html">blog single post 2</a></li>
+                </ul> -->
+              </li>
+              <li>
+                <a href="contacts.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+             <form id="content">
+                <input type="text" name="input" class="input" id="search-input">
+                <button type="reset" class="search" id="search-btn"></button>
+              </form>
+              <a href="contacts.html" class="themebtu">Consultation</a>
+          </div>
+          <div class="bar-menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+    </div>
+    <div class="mobile-nav hmburger-menu" id="mobile-nav" style="display:block;">
+        <div class="res-log">
+          <a href="index.html">
+            <img src="assets/img/logo.png" alt="Responsive Logo">
+          </a>
+        </div>
+          <ul>
+  
+            <li><a href="index.html">HOME</a>
+              <!-- <ul class="sub-menu">
+  
+                <li><a href="index.html">homepage 1</a></li>
+                <li><a href="index-2.html">homepage 2</a></li>
+                <li><a href="index-3.html">homepage 3</a></li>
+              </ul> -->
+            </li>
+            <li><a href="about.html">ABOUT</a>
+             <!--  <ul class="sub-menu">
+                <li><a href="about.html">about</a></li>
+                  <li><a href="team.html">team</a></li>
+                  <li><a href="services.html">services</a></li>
+                  <li><a href="pricing.html">pricing</a></li>
+                  <li><a href="404error.html">404 error</a></li>
+              </ul> -->
+            </li>
+            
+            <li><a href="services.html">SERVICES</a>
+  
+            <!-- <ul class="sub-menu">
+  
+              <li><a href="portfolio-grid.html">portfolio grid</a></li>
+                  <li><a href="portfolio-masonry.html">portfolio masonry</a></li>
+                  <li><a href="portfolio-metro.html">portfolio metro</a></li>
+                  <li><a href="portfolio-single-v1.html">portfolio single v1</a></li>
+                  <li><a href="portfolio-single-v2.html">portfolio single v2</a></li>
+            </ul> -->
+  
+            </li>
+            <li><a href="team.html">TEAM</a>
+  
+            <!-- <ul class="sub-menu">
+  
+                  <li><a href="blog-grid.html">blog grid</a></li>
+                  <li><a href="blog-single-post.html">blog single post 1</a></li>
+                  <li><a href="blog-single-post-2.html">blog single post 2</a></li>
+            </ul> -->
+  
+            </li>
+  
+            <li><a href="contacts.html">CONTACT</a></li>
+  
+            </ul>
+  
+            <a href="JavaScript:void(0)" id="res-cross"></a>
+        </div>
+  </header>
+<section class="splash-area-section" style="background-image: url(assets/img/background.jpg)">
+  <div class="container">
+    <div class="splash-area">
+      <h2>We Solve<br> Business Problems</h2>
+      <a href="#">Services</a>
+    </div>
+  </div>
+</section>
+<section class="discovery gap no-bottom" style="background-color :#f2edf5">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6">
+        <div class="heading">
+          <h6>Let's help you Grow Your Business</h6>
+          <h2> Our core services we offer
+          </h2>
+          <img alt="line" src="assets/img/headingline.png">
+          <p>Don't let outdated systems hold you back. With Intermediate Data Systems, step into a world where your mainframe systems bolster your business growth, not hinder it. Contact us today to begin your journey towards a modern, efficient, and resilient digital infrastructure.</p>
+          <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fa-regular fa-square"></i></span>Artificial Intelligence and Machine Learning</li>
+            <li><span class="fa-li"><i class="fa-regular fa-square"></i></span>Managed Services Provider (MSP)</li>
+            <li><span class="fa-li"><i class="fa-regular fa-square"></i></span>Application Modernization</li>
+            <li><span class="fa-li"><i class="fa-regular fa-square"></i></span>Specialized Training Services</li>
+          </ul>
+          <br>
+        </div>
+      </div>
+      <div class="col-xl-6">
+        <div class="discovery-img hoverstyle">
+          <figure>
+            <img class="w-100" alt="discovery" src="assets/img/AdobeStock_613774421.jpeg">
+          </figure>
+         <!--  <div class="discovery-text">
+            <i>
+              <svg id="Layer_5" enable-background="new 0 0 64 64" height="512" viewBox="0 0 64 64" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m33 19v-2h3v-3c0-1.654-1.346-3-3-3h-2c-.552 0-1-.449-1-1v-1h3c.552 0 1 .449 1 1h2c0-1.654-1.346-3-3-3v-2h-2v2h-3v3c0 1.654 1.346 3 3 3h2c.552 0 1 .449 1 1v1h-3c-.552 0-1-.449-1-1h-2c0 1.654 1.346 3 3 3v2z"/><path d="m62.618 47-5-10h-13.974c2.044-1.651 3.356-4.174 3.356-7v-1h-7c-2.826 0-5.349 1.312-7 3.356v-9.406c5.598-.508 10-5.222 10-10.95 0-6.065-4.935-11-11-11s-11 4.935-11 11c0 5.728 4.402 10.442 10 10.949v5.406c-1.651-2.043-4.174-3.355-7-3.355h-7v1c0 4.962 4.037 9 9 9h5v2h-1.382-3.236-20l-5 10h3.618v16h52v-16zm-36.618-14c-3.521 0-6.442-2.612-6.929-6h4.929c3.521 0 6.442 2.612 6.929 6zm14-2h4.929c-.486 3.388-3.408 6-6.929 6h-4.929c.487-3.388 3.408-6 6.929-6zm-17-19c0-4.962 4.037-9 9-9s9 4.038 9 9-4.037 9-9 9-9-4.038-9-9zm8 27h7 18.382l3 6h-26.764l-3-6zm-23.382 0h18.764l-3 6h-18.764zm-.618 8h17.618l2.382-4.764v18.764h-20zm48 14h-26v-18.764l2.382 4.764h23.618z"/><path d="m53 53h-15v6h15zm-2 4h-11v-2h11z"/><path d="m9 53h2v2h-2z"/><path d="m9 57h2v2h-2z"/><path d="m9 49h2v2h-2z"/><path d="m49 33h2v-19h-2.233l4.233-7.056 4.233 7.056h-2.233v9h2v-7h3.767l-7.767-12.944-7.767 12.944h3.767z"/><path d="m55 25h2v2h-2z"/><path d="m55 29h2v2h-2z"/><path d="m6 23h2v-9h-2.233l4.233-7.056 4.233 7.056h-2.233v19h2v-17h3.767l-7.767-12.944-7.767 12.944h3.767z"/><path d="m6 25h2v2h-2z"/><path d="m6 29h2v2h-2z"/><path d="m46 41h2v2h-2z"/><path d="m50 41h2v2h-2z"/><path d="m54 41h2v2h-2z"/><path d="m8 41h2v2h-2z"/><path d="m12 41h2v2h-2z"/><path d="m16 41h2v2h-2z"/></svg>
+            </i>
+            <a href="#"><h4>Performance Marketing</h4></a>
+            <p>Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis velnisi. Sed pretium, ligula sollicitudin.Nullam mollis. Ut justo. Suspendisse potenti.</p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tp-hero__shapes">
+        <div class="style-shapes-4">
+          <img alt="dots1" src="assets/img/dots1.png">
+        </div>
+        <div class="style-shapes-5">
+          <img alt="dots1" src="assets/img/shap-2.png">
+        </div>
+        <div class="style-shapes-6">
+          <img alt="dots1" src="assets/img/shap-1.png">
+        </div>
+        <div class="style-shapes-7">
+          <img alt="dots1" src="assets/img/shap-5.png">
+        </div>
+     </div>
+</section>
+<section class="digital-services gap">
+  <div class="container">
+    <div class="heading">
+      <h6>Web & Digital Services</h6>
+      <h2> We Deliver a<br>
+            Full Agency Experience</h2>
+      <img alt="line" src="assets/img/headingline.png">
+    </div>
+    <div class="row">
+      <div class="col-xl-6">
+        <div class="discovery-img hoverstyle">
+          <figure>
+            <img class="w-100" alt="discovery" src="assets/img/AdobeStock_661721747.jpeg">
+          </figure>
+          <div class="discovery-text two">
+            <a href="Ai-and-ML.html"><h4>Artificial Intelligence and Machine Learning</h4></a>
+            <p>We specialise in the design, construction, and maintenance of AI systems and infrastructure. This comprehensive approach involves tasks ranging from data acquisition, cleaning, and preparation to the creation of models, deployment in production environments, and continuous optimization and maintenance.</p><div class="btugap">
+              <a href="Ai-and-ML.html" class="themebtu">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6">
+        <div class="discovery-img hoverstyle">
+          <figure>
+            <img class="w-100" alt="discovery" src="assets/img/hero/Managed-Services.jpg">
+          </figure>
+          <div class="discovery-text two">
+            <a href="msp.html"><h4>Managed Services Provider (MSP)</h4></a>
+            <p>With our MSP, you can enjoy complete management and support for your company's ICT infrastructure. Our experts will take care of everything from maintenance to upgrades, so you can focus on what matters most - growing your business. Click on the link below to discover more about how our MSP can benefit your organization.</p><div class="btugap">
+              <a href="msp.html" class="themebtu">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6">
+        <div class="discovery-img hoverstyle">
+          <figure>
+            <img class="w-100" alt="discovery" src="assets/img/hero/AdobeStock_624559711.jpg">
+          </figure>
+          <div class="discovery-text two">
+            <a href="app-modernization.html"><h4>Application Modernization</h4></a>
+            <p>Are you tired of outdated and costly mainframe systems? Look no further than Intermediate Data Systems! Our Mainframe Modernization services provide an efficient and cost-effective solution to help your business transition to contemporary technologies. Don't let legacy systems hold you back - upgrade to a more streamlined and effective solution with Intermediate Data Systems.</p><div class="btugap">
+              <a href="app-modernization.html" class="themebtu">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6">
+        <div class="discovery-img hoverstyle">
+          <figure>
+            <img class="w-100" alt="discovery" src="assets/img/AdobeStock_639681173.jpeg">
+          </figure>
+          <div class="discovery-text two">
+            <a href="Training-services.html"><h4>Specialized Training Services</h4></a>
+            <p>Our training Services focus on providing comprehensive education and skill development in various areas of technology. These services aim to empower individuals, IT professionals, and organizations with the knowledge and expertise needed to adapt to evolving technologies and industry demands. Below is an overview of our offering: </p><div class="btugap">
+              <a href="Training-services.html" class="themebtu">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="brands-we-work gap"> 
+  <div class="container">
+    <h6>Our Partners.</h6>
+    <div class="swiper-container brandswiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="brand-img">
+            <img alt="img" src="assets/img/partners/3CX.png" height="63px">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="brand-img">
+            <img alt="img" src="assets/img/partners/CISCO.png" height="63px">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="brand-img">
+            <img alt="img" src="assets/img/partners/ELO.png" height="63px">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="brand-img">
+            <img alt="img" src="assets/img/partners/FRESHDESK.png" height="63px">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="brand-img">
+            <img alt="img" src="assets/img/partners/HP.png" height="63px">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="brand-img">
+            <img alt="img" src="assets/img/partners/HP2.jpg" height="63px">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="brand-img">
+            <img alt="img" src="assets/img/partners/IBM.png" height="63px">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="brand-img">
+            <img alt="img" src="assets/img/partners/KASEYA.jpg" height="63px">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="brand-img">
+            <img alt="img" src="assets/img/partners/MF.png" height="63px">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="brand-img">
+            <img alt="img" src="assets/img/partners/MS.png" height="63px">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="brand-img">
+            <img alt="img" src="assets/img/partners/MTN.png" height="63px">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="brand-img">
+            <img alt="img" src="assets/img/partners/ONMOBILE.png" height="63px">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="brand-img">
+            <img alt="img" src="assets/img/partners/OPENTEXT.png" height="63px">
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+</div>
+<footer class="gap no-bottom" style="background-color: #222 ;">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="footer-logo">
+          <a href="index.html"><img alt="img" src="assets/img/logo.png" height="200px"></a>
+          <p>
+            <b>Registered Name:</b> Intermediate Data Systems Trading and Projects<br> <b>Registration Number:</b> 2009 / 106070 / 23</p> <br>
+            <div class="latest-news"><h6>Fixing IT</h6></div>
+          
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="links">
+          <h6>Additional links</h6>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="team.html">team</a></li>
+            <!-- <li><a href="blog-grid.html">News</a></li> -->
+            <li class="pb-0"><a href="contacts.html">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="latest-news">
+          <h6>Information</h6>
+            <p>IDT offers a suite of services encompassing the latest in Artificial Intelligence (AI) and Machine Learning (ML) to drive intelligent business solutions, mainframe modernization for updating legacy systems, comprehensive training programs to empower teams with current industry knowledge, and end-to-end managed services to ensure seamless IT operations and expert support.
+
+            </p>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="latest-news">
+          <h6>Subscribe</h6>
+            <p>Please enter your email address in the field provided below to subscribe to our newsletter.</p>
+            <form>
+              <input type="text" name="email" placeholder="your email address">
+              <button>go</button>
+            </form>
+        </div>
+       </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 All Rights Reserved By <b>Intermediate Data Systems</b></p>
+      <ul>
+        <li><a href="https://www.linkedin.com/company/intermediate-data-systems/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<!-- Back to top button -->
+  <a id="button"></a>
+<!-- Back to top button end -->
+<!-- jQuery -->
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<!-- Bootstrap Js -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- fancybox -->
+<script src="assets/js/jquery.fancybox.min.js"></script>
+<!-- swiper -->
+<script src="assets/js/swiper.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
