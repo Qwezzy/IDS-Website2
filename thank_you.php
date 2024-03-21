@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IDT | Contacts</title>
+  <title>Terio - error 404</title>
   <link rel="icon" href="assets/img/logo-icon.png">
  
    <!-- CSS only -->
@@ -11,8 +11,6 @@
    <!-- Font Awesome 6 -->
    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
-   <!-- swiper -->
-   <link rel="stylesheet" href="assets/css/swiper.css">
    <!-- style -->
    <link rel="stylesheet" href="assets/css/style.css">
    <!-- responsive -->
@@ -157,158 +155,22 @@
             <a href="JavaScript:void(0)" id="res-cross"></a>
         </div>
   </header>
-<section class="splash-area-section" style="background-image: url(assets/img/background.jpg)">
+
+<section class="error-page" style="background-image: url(assets/img/background.jpg)">
   <div class="container">
-    <div class="splash-area">
-      <h2>Let Us Know What 
-          You're Looking For</h2>
-      <a href="#">Get in Touch</a>
+    <div class="page-not">
+      <div>
+      <h2>Thank You!<br><h3>Your form has been submitted, and a consultant will get back to you within 24 hours.</h3></h2>
+                
+               
+      </div>
+
     </div>
+    
   </div>
 </section>
-<section class="contact-page gap">
-  <div class="container">
-    <div class="heading">
-      <h6>Start Your Project With Us.</h6>
-      <h2>Let's Talk</h2>
-      <img alt="line" src="assets/img/headingline.png">
-    </div>
-    <div class="row">
-      <div class="col-xl-6 col-lg-6">
-        <form class="content-form" action="process-form.php" method="POST">
-          <div class="row">
-              <div class="col-lg-6">
-                  <input type="text" name="name" placeholder="Your Name *">
-              </div>
-              <div class="col-lg-6">
-                  <input type="text" name="company" placeholder="Your Company *">
-              </div>
-          </div>
-          <input type="text" name="email" placeholder="Your Email *">
-          <textarea name="message" placeholder="Your Message *"></textarea>
-          <button type="submit" class="themebtu">Submit</button>
-      </form>
-      <!--Pop Up Modul after form subit-->
-      <div class="modal" id="myModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-          
-            <!-- Modal Header -->
-            <div class="modal-header">
-              <h5 class="modal-title">Thank You!</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            
-            <!-- Modal Body -->
-            <div class="modal-body">
-              <p>Your form has been submitted, and a consultant will get back to you within 24 hours.</p>
-            </div>
-            
-            <!-- Modal Footer -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-      
 
 
-      </div>
-      <div class="offset-lg-1 col-xl-5 col-lg-5">
-        <ul class="sidebar">
-          <li>
-            <h4>Address :</h4>
-            <span>North-Block TBE 2nd Floor<br>90 Rivonia Road,<br> Sandton,<br> Gauteng,<br> 2091
-                    </span>
-          </li>
-          <li>
-            <h4>Phone :</h4>
-            <a href="callto:+721167668848"><span>+72 11 676 6884</span></a>
-          </li>
-          <li>
-            <h4>Email :</h4>
-            <a href="mailto:sales@intermediateds.co.za"><span>sales@intermediateds.co.za</span></a>
-          </li>
-          <li>
-            <h4>Find us :</h4>
-            <ul class="brandicon">
-              <!-- <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li> -->
-              <li><a href="https://www.linkedin.com/company/intermediate-data-systems/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-<div id="map" class="map"><iframe src="https://www.google.com/maps/d/u/1/embed?mid=1GufHVri4jR6KRtOUMrUyvYDJp0VfAfU&ehbc=2E312F&noprof=1&z=6" width="640" height="480" loading="scale"></iframe>
-          
-        </div>
-<section class="offices gap" style="background-color:#f3f8fb;">
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-4">
-        <div class="heading">
-          <h2>Company Details</h2>
-          <p><b>Registered Name:</b> Intermediate Data Systems Trading and Projects <br>
-            <b>Registration Number:</b> 2009 / 106070 / 23</p>
-        </div>
-      </div>
-      <div class="col-xl-8">
-        <div class="swiper-container studiesswiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="view-map hoverstyle">
-                <figure>
-                    <img alt="img" class="w-100" src="assets/img/SA-Flag.jpg">
-                </figure>
-                <div class="view-map-data">
-                  <i class="fa-solid fa-user"></i>
-                    <h5>Gauteng Office</h5>
-                    <p>Cnr Mutual Road &, Rivonia Blvd, Edenburg, Sandton, 2191
-                      +27 11 259 9000</p>
-                    <a href="#map">view map</a>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="view-map hoverstyle">
-                <figure>
-                    <img alt="img" class="w-100" src="assets/img/SA-Flag.jpg">
-                </figure>
-                <div class="view-map-data">
-                  <i class="fa-solid fa-user"></i>
-                    <h5>KwaZulu Natal Office</h5>
-                    <p>Beacon Rock, 21 Lighthouse Rd,<br>
-                      Durban, Umhlanga Rocks,
-                      4320,
-                      </p>
-                    <a href="#map">view map</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="tp-hero__shapes">
-        <div class="style-shapes-5">
-          <img alt="dots1" src="assets/img/shap-2.png">
-        </div>
-        <div class="style-shapes-6">
-          <img alt="dots1" src="assets/img/shap-2.png">
-        </div>
-        <div class="style-shapes-7">
-          <img alt="dots1" src="assets/img/shap-5.png">
-        </div>
-     </div>
-</section>
 <footer class="gap no-bottom" style="background-color: #222 ;">
   <div class="container">
     <div class="row">
@@ -369,7 +231,5 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <!-- fancybox -->
 <script src="assets/js/jquery.fancybox.min.js"></script>
-<!-- swiper -->
-<script src="assets/js/swiper.js"></script>
 <script src="assets/js/custom.js"></script>
 </body>
