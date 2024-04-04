@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // If there are no errors, send email
     if (empty($errors)) {
         // Set recipient email address
-        $to = "info@khemo.co.za";
+        $to = "sales@intermediateds.co.za";
 
         // Set email subject
         $subject = "Contact Form Submission";
