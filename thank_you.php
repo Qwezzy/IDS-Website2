@@ -75,7 +75,7 @@
                 </ul> -->
               </li>
               <li>
-                <a href="team.html">TEAM</a>
+                <a href="ai-solutions.html">AI SOLUTIONS</a>
                 <!-- <ul class="sub-menu">
                   <li><a href="blog-grid.html">blog grid</a></li>
                   <li><a href="blog-single-post.html">blog single post 1</a></li>
